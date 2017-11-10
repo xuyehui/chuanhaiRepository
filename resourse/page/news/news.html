@@ -1,0 +1,29 @@
+<!--新闻中心的内容-->
+<div class="img">
+	<img src="resourse/img/banner_news.png" />
+</div>
+<div class="area bor">
+	<div class="area_contain">
+		<div class="area_left bor">
+		<h1>联系我们</h1>
+		<p class="wrote">About sichuan sea</p>
+		<img src="resourse/img/company_nav_border.png" />
+		<img class="switchImg"  src="resourse/img/company_nav_Mask.png"/>
+		<p class="way" ui-sref=".focus" onclick='animationSwip(0,"集团介绍")'>集团介绍</p>
+		<p class="way" ui-sref=".strategy" onclick='animationSwip(1,"企业战略")'>企业战略</p>
+	</div>
+	<div class="area_right bor">
+		<div class="ar_div">
+			<label>您的位置： 新闻中心 > <label class="changeName">集团介绍</label></label>
+		    <p class="area_right_p  changeName" >集团介绍</p>
+		</div>
+		<div class="map">
+		      <div ui-view></div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="OurFoot">
+</div>
+<link rel="stylesheet" type="text/css" href="resourse/css/relationOur/relationOur.css"/>
+<link rel="stylesheet" type="text/css" href="resourse/css/company/companyJy.css"/>

@@ -1,0 +1,33 @@
+<!--川海总页面-->
+<div class="img">
+	<img src="resourse/img/our.png" />
+</div>
+<div class="area bor">
+	<div class="area_contain">
+		<div class="area_left bor">
+		<h1>联系我们</h1>
+		<p class="wrote">About sichuan sea</p>
+		<img src="resourse/img/company_nav_border.png" />
+		<img class="switchImg"  src="resourse/img/company_nav_Mask.png"/>
+		<p class="way" ui-sref=".jy" onclick='animationSwip(0,"企业简介")'>企业简介</p>
+		<p class="way" ui-sref=".introduce" onclick='animationSwip(1,"集团介绍")'>集团介绍</p>
+		<p class="way" ui-sref=".strategy" onclick='animationSwip(2,"企业战略")'>企业战略</p>
+		<p class="way" ui-sref=".culture" onclick='animationSwip(3,"企业文化")'>企业文化</p>
+		<p class="way" ui-sref=".framework" onclick='animationSwip(4,"企业架构")'>企业架构</p>
+		<p class="way" ui-sref=".duty" onclick='animationSwip(5,"社会责任")'>社会责任</p>
+	</div>
+	<div class="area_right bor">
+		<div class="ar_div">
+			<label>您的位置： 关于川海  ><label class="changeName">企业简介</label></label>
+		    <p class="area_right_p changeName">企业简介</p>
+		</div>
+		<div class="map">
+		      <div ui-view></div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="OurFoot">
+</div>
+<link rel="stylesheet" type="text/css" href="resourse/css/relationOur/relationOur.css"/>
+<link rel="stylesheet" type="text/css" href="resourse/css/company/companyJy.css"/>

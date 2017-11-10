@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		 <link rel="stylesheet" type="text/css" href="resourse/css/home/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="resourse/css/public/index.css"/>
+
+	</head>
+	<body ng-app="myApp">
+		<header ng-controller="headController">
+			<div class="header_come">
+				<label class="head_write">欢迎来到川海</label>
+				<div class="header_right">
+					<a href="#/relationOur" ><span class="head_write" >联系我们</span></a> 
+			        <a href="#/comeOur" ><span class="head_write">加入我们</span></a>
+				</div>
+			
+			</div>
+			<div class="header_come header_bottom">
+				<img src="resourse/img/log.png"  class="log"/>
+				<ul >
+					<li class="come_li"><a href="#/index" >首页</a></li>
+					<li class="come_li"><a href="#/factory" >产品与服务</a></li>
+					<li class="come_li" ng-mouseover='company(1)' ng-mouseout='moseout(1)'><a href="#/companyJy" >关于川海 </a>
+						<ol ng-show="companDis">
+							<li ui-sref=".jy" onclick='animationSwip(0,"企业简介")'>企业简介</li>
+							<li ui-sref=".introduce" onclick='animationSwip(1,"集团介绍")'>集团介绍</li>
+							<li ui-sref=".strategy" onclick='animationSwip(2,"企业战略")'>企业战略</li>
+							<li ui-sref=".culture" onclick='animationSwip(3,"企业文化")' >企业文化</li>
+							<li ui-sref=".framework" onclick='animationSwip(4,"企业架构")'>企业架构</li>
+							<li ui-sref=".duty" onclick='animationSwip(5,"社会责任")'>社会责任</li>
+						</ol>
+					</li class="come_li">
+					<li class="come_li" ng-mouseover='company(2)' ng-mouseout='moseout(2)'>
+						<a href="#/news" >新闻中心 </a>
+					    <ol ng-show="news">
+							<li onclick='animationSwip(0,"集团介绍")'>集团介绍</li>
+							<li onclick='animationSwip(1,"企业战略")'>企业战略</li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<!--轮播图-->
+			<div ui-view></div>
+		</section>
+		
+		<footer>
+			<div class="foot_left">
+				<ul >
+					<li class="black">关于我们</li>
+					<li class="black">发展历程</li>
+					<li class="black">人力资源</li>
+					<li class="black">联系我们</li>
+					<li >公司简介</li>
+					<li >公司动态</li>
+					<li>行业新闻</li>
+					<li>相关法规</li>
+					<li >企业文化</li>
+					<li>社会招聘</li>
+					<li>校园招聘</li>
+					<li>员工成长</li>
+					<li >发展历程</li>
+					<li>联系总部</li>
+ 					<li>分支机构</li>
+				</ul>
+				<p>Copyright© 2014-2016 川海 trendhy.com All Rights Reserved. 粤ICP备16055616号-2 
+深圳市川海供应链管理有限公司版权所有 </p>
+			</div>
+			<div class="foot_right">
+				<div class="right_iphone">
+					<p>24小时全国服务热线</p>
+					<p>400-100-8888</p>
+					
+					<a target=blank href=tencent://message/?uin=81600293&Site=81600293&Menu=yes><img border="0" ><img src="resourse/img/service.png" /></a>
+				</div>
+				<p class="foot_out">
+					<label> 关注我们</label>
+					<img src="resourse/img/Sina.png" />
+					<img src="resourse/img/qzone.png" />
+					<img src="resourse/img/weixin.png" />
+					
+
+				</p>
+			</div>
+		</footer>
+	</body>
+	<script src="resourse/js/public/jquery-1.9.1.js"></script>
+	<script src="resourse/js/public/swiper.min.js"></script>
+	<script src="resourse/js/public/angular.js"></script>
+	<script src="resourse/js/public/angular-animate.min.js"></script>
+	<script src="resourse/js/public/angular-ui-route.js"></script>
+	<script src="resourse/js/home/index.js"></script>
+</html>
+

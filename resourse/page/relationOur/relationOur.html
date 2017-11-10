@@ -1,0 +1,29 @@
+
+<div class="img">
+	<img src="resourse/img/our.png" />
+</div>
+<div class="area bor">
+	<div class="area_contain">
+		<div class="area_left bor">
+		<h1>联系我们</h1>
+		<p class="wrote">About sichuan sea</p>
+		<img src="resourse/img/company_nav_border.png" />
+		<img class="switchImg"  src="resourse/img/company_nav_Mask.png"/>
+		<p class="way" onclick='animationSwip(0,"联系方式")' ui-sref="/relationOur.mapLela">联系方式</p>
+		<p class="way" onclick='animationSwip(1,"客户留言")' ui-sref="/relationOur.message">客户留言</p>
+	</div>
+	<div class="area_right bor">
+		<div class="ar_div">
+			<label>您的位置： 首页> 联系我们 > <label class="changeName">联系方式</label></label>
+		    <p class="area_right_p changeName">联系方式</p>
+		</div>
+		<div class="map">
+			<div ui-view></div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="OurFoot">
+</div>
+<link rel="stylesheet" type="text/css" href="resourse/css/relationOur/relationOur.css"/>
+

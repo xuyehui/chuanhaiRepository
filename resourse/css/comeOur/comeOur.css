@@ -1,0 +1,139 @@
+/*人才理念*/
+#father {
+  width: 985px;
+  color: #666666;
+  font-weight: bold; }
+  #father :nth-child(1) {
+    font-size: 14px;
+    color: #666;
+    margin: 16px 0 15px 0; }
+  #father :nth-child(2) {
+    font-size: 14px;
+    color: #666; }
+  #father :nth-child(3) {
+    margin-top: 20px;
+    margin-left: 25px; }
+  #father :nth-child(4) {
+    font-size: 14px;
+    color: #666;
+    margin-top: 16px; }
+  #father :nth-child(5) {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 17px; }
+/*薪酬 福利*/
+
+.bigbox {
+  float: left;
+  width: 784px;
+  margin-left: 46px; }
+
+.biaoti {
+  padding: 16px 0 20px 0;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 1px solid #cbcbcb;
+  text-align: center; }
+
+.bigbox-2 {
+  text-align: left; }
+
+.bigbox-2-h3 {
+  margin-top: 15px; }
+  .bigbox-2-h3 .three {
+    font-size: 14px;
+    color: #666; }
+
+.bigbox-3 {
+  text-align: left;
+  margin-top: 20px;
+  float: left; }
+  .bigbox-3 li {
+    float: left;
+    margin-bottom: 20px; }
+    .bigbox-3 li b {
+      float: left;
+      padding-left: 18px;
+      line-height: 24px;
+      font-size: 14px; }
+    .bigbox-3 li span {
+      float: left;
+      width: 650px;
+      line-height: 24px;
+      font-size: 14px; }
+/* 人才招聘*/
+.head_liu{
+				width: 790px;
+			}
+			.head_liu_one{
+				width: 100%;
+				font-size: 14px;
+				font-weight: bold;
+				color: #666666;
+			}
+			.head_liu_one p{
+				padding-top: 10px;
+			}
+			.head_liu_two{
+				width: 100%;
+				text-align: center;
+			}
+			.head_liu_two img{
+				  margin-top: 13px;
+				  display: block;
+			    width: 744px;
+			    height: 364px;
+			}
+			.head_liu_two img:nth-child(2){
+				  margin-top: 28px;
+			}
+			.head_liu_two .tex p{
+				color: #666666;
+				font-weight: bold;
+				padding: 2px 0;
+				font-size: 16px;
+        margin-bottom: 10px;
+        margin-top:10px;
+			}
+			.head_liu_two .tex1{
+				    font-size: 14px;
+            color: #666;
+				   width: 612px;
+			    border: 1px solid #98d7f8;
+			    padding-top: 9px;
+			    padding-left: 130px;
+			    text-align: left;
+			    background: #f8fcfe;
+			    padding-bottom: 27px;
+			}
+			.head_liu_two .tex1 ul{
+				list-style: none;
+				padding-left:25px;
+			}
+			.head_liu_two .tex1 p{
+				padding-top: 11px;
+			}
+			.head_liu_two .tex1 ul li{
+				padding-top: 8px;
+			}
+/*员工风采*/
+#companyworker{
+	width: 784px;
+}
+.companyworker_header{
+	    margin: 16px 0 20px 0;
+}
+#companyworker h3{
+	  font-size: 14px;
+    color: #666;
+    font-weight: 600;
+}
+#companyworker img{
+	  display: block;
+    width: 744px;
+    height: 364px;
+    margin: 16px 20px 30px 20px;
+}
+
+
+/*# sourceMappingURL=comeOur.css.map */
